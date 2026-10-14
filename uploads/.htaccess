@@ -1,0 +1,4 @@
+# ห้ามรันสคริปต์ในโฟลเดอร์ที่ผู้ใช้อัปโหลดไฟล์ได้ (รูปภาพยังเปิดดูได้ตามปกติ)
+<FilesMatch "\.(php|phtml|php3|php4|php5|phps|phar|cgi|pl|py|sh)$">
+    Deny from all
+</FilesMatch>
